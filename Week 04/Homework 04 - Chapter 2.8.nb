@@ -1,0 +1,550 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19865,        540]
+NotebookOptionsPosition[     17863,        503]
+NotebookOutlinePosition[     18292,        520]
+CellTagsIndexPosition[     18249,        517]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Textbook Homework 04", "Title",
+ CellChangeTimes->{{3.9039124733743095`*^9, 
+  3.9039125025571814`*^9}},ExpressionUUID->"0305ffca-7313-42d5-874b-\
+9c4c2f3ba761"],
+
+Cell[CellGroupData[{
+
+Cell["Chapter 3.1", "Chapter",
+ CellChangeTimes->{{3.903912515716776*^9, 
+  3.9039125208192425`*^9}},ExpressionUUID->"651258aa-5445-4d09-9fac-\
+90733af29f65"],
+
+Cell[TextData[{
+ "Question 37: Find an equation of the tangent line to the curve at the given \
+point\n",
+ StyleBox["y\[Equal]2",
+  FontWeight->"Bold"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["x", "3"], "-", 
+    SuperscriptBox["x", "2"], "+", "2"}], TraditionalForm]],
+  FormatType->TraditionalForm,
+  FontWeight->"Bold",ExpressionUUID->"343ba8e4-c024-4fb9-9bcd-3105a1b6924c"],
+ StyleBox[" @ (1,3)",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.9039125309596386`*^9, 3.903912593233745*^9}, {
+  3.9039126302804565`*^9, 
+  3.903912711329199*^9}},ExpressionUUID->"3f93ed21-b3d8-4265-9854-\
+d8292bd7f919"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Step", " ", "1"}], ":", " ", 
+    RowBox[{"Define", " ", "the", " ", "function"}]}], " ", "*)"}], "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Start", " ", "by", " ", "defining", " ", "the", " ", "function", " ", "y",
+     " ", "in", " ", "terms", " ", "of", " ", "x"}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"y", "[", "x_", "]"}], " ", ":=", " ", 
+    RowBox[{
+     RowBox[{"2", 
+      RowBox[{"x", "^", "3"}]}], " ", "-", " ", 
+     RowBox[{"x", "^", "2"}], " ", "+", " ", "2"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "2"}], ":", " ", 
+     RowBox[{"Differentiate", " ", "the", " ", "function"}]}], " ", "*)"}], 
+   "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Find", " ", "the", " ", "derivative", " ", "of", " ", "y", " ", "with", 
+     " ", "respect", " ", "to", " ", "x", " ", "to", " ", "get", " ", "the", 
+     " ", "slope", " ", "of", " ", "the", " ", "tangent", " ", "line"}], " ", 
+    "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"yPrime", "[", "x_", "]"}], " ", "=", " ", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"y", "[", "x", "]"}], ",", " ", "x"}], "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "3"}], ":", " ", 
+     RowBox[{
+     "Evaluate", " ", "the", " ", "derivative", " ", "at", " ", "the", " ", 
+      "given", " ", "point"}]}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Plug", " ", "in", " ", "x"}], " ", "=", " ", 
+     RowBox[{
+     "1", " ", "into", " ", "yPrime", " ", "to", " ", "get", " ", "the", " ", 
+      "slope", " ", "of", " ", "the", " ", "tangent", " ", "at", " ", 
+      RowBox[{"(", 
+       RowBox[{"1", ",", "3"}], ")"}]}]}], " ", "*)"}], "\n", 
+   RowBox[{"m", " ", "=", " ", 
+    RowBox[{"yPrime", "[", "1", "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "4"}], ":", " ", 
+     RowBox[{
+      RowBox[{"Use", " ", "the", " ", "point"}], "-", 
+      RowBox[{
+      "slope", " ", "form", " ", "to", " ", "find", " ", "the", " ", 
+       "equation", " ", "of", " ", "the", " ", "tangent", " ", "line"}]}]}], 
+    " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"The", " ", "point"}], "-", 
+       RowBox[{"slope", " ", "form", " ", "is", " ", "y"}], " ", "-", " ", 
+       "y1"}], " ", "=", " ", 
+      RowBox[{"m", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"x", " ", "-", " ", "x1"}], ")"}], ".", " ", "Given"}], " ", 
+       "the", " ", "point", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", ",", "3"}], ")"}]}]}], ",", " ", 
+     RowBox[{"the", " ", "equation", " ", "becomes"}]}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"tangentLine", "[", "x_", "]"}], " ", "=", " ", 
+    RowBox[{
+     RowBox[{"m", "*", 
+      RowBox[{"(", 
+       RowBox[{"x", " ", "-", " ", "1"}], ")"}]}], " ", "+", " ", "3"}]}], 
+   "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "5"}], ":", " ", 
+     RowBox[{
+     "Display", " ", "the", " ", "equation", " ", "of", " ", "the", " ", 
+      "tangent", " ", "line"}]}], " ", "*)"}], "\n", 
+   RowBox[{"tangentLine", "[", "x", "]"}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "6"}], ":", " ", 
+     RowBox[{
+     "Graph", " ", "the", " ", "function", " ", "and", " ", "its", " ", 
+      "tangent", " ", "line"}]}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Use", " ", "the", " ", "Plot", " ", "function", " ", "to", " ", 
+     "display", " ", "both", " ", "functions", " ", "on", " ", "the", " ", 
+     "same", " ", "graph"}], " ", "*)"}], "\n", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"y", "[", "x", "]"}], ",", " ", 
+       RowBox[{"tangentLine", "[", "x", "]"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", " ", 
+     RowBox[{"PlotLegends", " ", "->", " ", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Original function\>\"", ",", " ", "\"\<Tangent line\>\""}], 
+       "}"}]}], ",", " ", 
+     RowBox[{
+     "PlotLabel", " ", "->", " ", 
+      "\"\<Graph of y and its Tangent at (1,3)\>\""}]}], "]"}]}]}]], "Code",
+ CellChangeTimes->{
+  3.903914255845008*^9},ExpressionUUID->"4f07bd2d-1d7c-490f-b00a-\
+eff36c7ee76a"],
+
+Cell["\<\
+Question 59: Find the points on the curve where the tangent is horizontal\
+\>", "Text",
+ CellChangeTimes->{{3.9039127639021473`*^9, 3.903912781166638*^9}, {
+   3.90391281659981*^9, 3.903912835647457*^9}, 3.903912974918272*^9, {
+   3.9039130929815187`*^9, 
+   3.903913126771366*^9}},ExpressionUUID->"46deebc6-e544-4d2c-a770-\
+72a29cb18c9f"],
+
+Cell[TextData[{
+ "\t\ty\[Equal]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["x", "3"], "+", 
+    RowBox[{"3", 
+     SuperscriptBox["x", "2"]}], "-", 
+    RowBox[{"9", "x"}], "+", "10"}], TraditionalForm]],ExpressionUUID->
+  "e92fa08a-70e8-4204-9fb1-4cb66488f558"]
+}], "InlineFormula",
+ CellChangeTimes->{{3.9039127639021473`*^9, 3.903912781166638*^9}, {
+  3.90391281659981*^9, 3.903912835647457*^9}, {3.90391300349032*^9, 
+  3.9039130753028674`*^9}, {3.9039145791812205`*^9, 
+  3.903914584036689*^9}},ExpressionUUID->"f410ed47-4911-4ee0-a30b-\
+63b7306395aa"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Step", " ", "1"}], ":", " ", 
+    RowBox[{"Define", " ", "the", " ", "function"}]}], " ", "*)"}], "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Start", " ", "by", " ", "defining", " ", "the", " ", "function", " ", "y",
+     " ", "in", " ", "terms", " ", "of", " ", "x"}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"y", "[", "x_", "]"}], " ", ":=", " ", 
+    RowBox[{
+     RowBox[{"x", "^", "3"}], " ", "+", " ", 
+     RowBox[{"3", 
+      RowBox[{"x", "^", "2"}]}], " ", "-", " ", 
+     RowBox[{"9", "x"}], " ", "+", " ", "10"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "2"}], ":", " ", 
+     RowBox[{"Differentiate", " ", "the", " ", "function"}]}], " ", "*)"}], 
+   "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Find", " ", "the", " ", "derivative", " ", "of", " ", "y", " ", "with", 
+     " ", "respect", " ", "to", " ", "x"}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"yPrime", "[", "x_", "]"}], " ", "=", " ", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"y", "[", "x", "]"}], ",", " ", "x"}], "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "3"}], ":", " ", 
+     RowBox[{
+     "Solve", " ", "for", " ", "x", " ", "where", " ", "the", " ", 
+      "derivative", " ", "is", " ", "0"}]}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+     "A", " ", "horizontal", " ", "tangent", " ", "line", " ", "has", " ", 
+      "a", " ", "slope", " ", "of", " ", "0"}], ",", " ", 
+     RowBox[{
+      RowBox[{"so", " ", "we", " ", "solve", " ", 
+       RowBox[{"yPrime", "[", "x", "]"}]}], " ", "=", " ", "0"}]}], " ", 
+    "*)"}], "\n", 
+   RowBox[{"xValues", " ", "=", " ", 
+    RowBox[{"Solve", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"yPrime", "[", "x", "]"}], " ", "==", " ", "0"}], ",", " ", 
+      "x"}], "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Extract", " ", "x"}], "-", 
+     RowBox[{"values", " ", "from", " ", "the", " ", "solution"}]}], " ", 
+    "*)"}], "\n", 
+   RowBox[{"xPoints", " ", "=", " ", 
+    RowBox[{"x", " ", "/.", " ", "xValues"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "4"}], ":", " ", 
+     RowBox[{
+      RowBox[{
+      "Evaluate", " ", "the", " ", "original", " ", "function", " ", "at", 
+       " ", "the", " ", "x"}], "-", 
+      RowBox[{"values", " ", "to", " ", "get", " ", "the", " ", "y"}], "-", 
+      "values"}]}], " ", "*)"}], "\n", 
+   RowBox[{"yPoints", " ", "=", " ", 
+    RowBox[{"y", " ", "/@", " ", "xPoints"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "5"}], ":", " ", 
+     RowBox[{
+     "Combine", " ", "x", " ", "and", " ", "y", " ", "values", " ", "to", " ",
+       "get", " ", "the", " ", "points"}]}], " ", "*)"}], "\n", 
+   RowBox[{"points", " ", "=", " ", 
+    RowBox[{"Transpose", "[", 
+     RowBox[{"{", 
+      RowBox[{"xPoints", ",", " ", "yPoints"}], "}"}], "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "6"}], ":", " ", 
+     RowBox[{
+     "Graph", " ", "the", " ", "function", " ", "and", " ", "the", " ", 
+      "points", " ", "where", " ", "the", " ", "tangent", " ", "is", " ", 
+      "horizontal"}]}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Use", " ", "the", " ", "Plot", " ", "function", " ", "to", " ", 
+     "display", " ", "the", " ", "function", " ", "and", " ", "highlight", 
+     " ", "the", " ", "points"}], " ", "*)"}], "\n", 
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"y", "[", "x", "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", 
+       RowBox[{"-", "5"}], ",", " ", "5"}], "}"}], ",", " ", 
+     RowBox[{"Epilog", " ", "->", " ", 
+      RowBox[{"{", 
+       RowBox[{"Red", ",", " ", 
+        RowBox[{"PointSize", "[", "Large", "]"}], ",", " ", 
+        RowBox[{"Point", "[", "points", "]"}]}], "}"}]}], ",", " ", 
+     RowBox[{
+     "PlotLabel", " ", "->", " ", 
+      "\"\<Graph of y and Points with Horizontal Tangents\>\""}]}], "]"}], 
+   "\n"}]}]], "Code",
+ CellChangeTimes->{{3.903914355069122*^9, 3.903914357976569*^9}, {
+  3.903914466352237*^9, 3.9039144692400494`*^9}, {3.9039146145321655`*^9, 
+  3.903914616098608*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"dafddb1e-b948-411e-826a-923a9fc8d1b1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "SetDelayed", "write", 
+   "\"Tag \\!\\(\\*RowBox[{\\\"Integer\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"5\\\", \\\"[\\\", \\\"x_\\\", \\\"]\\\"}]\\) is \
+Protected.\"", 2, 59, 6, 26132739692301117764, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9039146512096767`*^9},
+ CellLabel->
+  "During evaluation of \
+In[59]:=",ExpressionUUID->"dd5d9134-5ed0-48f9-91ed-eba3e640da1a"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.903914651249199*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"7380205a-46ce-41ca-b733-7f538734f3d7"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.903914651253189*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"07a70e9c-c16e-46f8-bc0b-f7061572bce1"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.903914651257188*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"04a61b63-bae5-43af-bfd1-6147ba4dc12f"],
+
+Cell[BoxData[
+ RowBox[{"{", "x", "}"}]], "Output",
+ CellChangeTimes->{3.903914651262196*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"cfeb05d5-528d-4fba-90f7-c9b6efc0e3ec"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"5", "[", "x", "]"}], "}"}]], "Output",
+ CellChangeTimes->{3.9039146512661877`*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"0b5706df-a919-451b-a3fd-b740aca73abc"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"x", ",", 
+    RowBox[{"5", "[", "x", "]"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.9039146512691855`*^9},
+ CellLabel->"Out[64]=",ExpressionUUID->"a79b5448-8293-4e06-9a59-6ad0b8b238d6"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Epilog->{
+    RGBColor[1, 0, 0], 
+    PointSize[Large], 
+    PointBox[{{
+       HoldForm[$CellContext`x], 
+       5[
+        HoldForm[$CellContext`x]]}}]},
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox[
+   "\"Graph of y and Points with Horizontal Tangents\"", TraditionalForm],
+  PlotRange->{{-5, 5}, {0., 0.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.903914651371704*^9},
+ CellLabel->"Out[65]=",ExpressionUUID->"6b2f0767-0e7f-4c1b-916d-f0a616d0626e"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Question 12: Differentiate the function ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{"V", "[", "t", "]"}], "=", 
+   RowBox[{
+    SuperscriptBox["t", 
+     FractionBox[
+      RowBox[{"-", "3"}], "5"]], "+", 
+    SuperscriptBox["t", "4"]}]}]], "InlineCode",ExpressionUUID->
+  "dd3bbb49-eb27-4a3b-a121-edcd69312f52"]
+}], "Text",
+ CellChangeTimes->{{3.9039131464032683`*^9, 3.9039131836543007`*^9}, {
+  3.903913374622367*^9, 
+  3.903913464117057*^9}},ExpressionUUID->"f2e34bc2-130c-4e46-a4da-\
+decaa6773749"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"Step", " ", "1"}], ":", " ", 
+    RowBox[{"Define", " ", "the", " ", "function"}]}], " ", "*)"}], "\n", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "Start", " ", "by", " ", "defining", " ", "the", " ", "function", " ", "V", 
+    RowBox[{"(", "t", ")"}]}], " ", "*)"}], "\n", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"V", "[", "t_", "]"}], " ", ":=", " ", 
+    RowBox[{
+     RowBox[{"t", "^", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "3"}], "/", "5"}], ")"}]}], " ", "+", " ", 
+     RowBox[{"t", "^", "4"}]}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "2"}], ":", " ", 
+     RowBox[{"Differentiate", " ", "the", " ", "function"}]}], " ", "*)"}], 
+   "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Use", " ", 
+      RowBox[{"Mathematica", "'"}], "s", " ", "differentiation", " ", 
+      "function"}], ",", " ", "D", ",", " ", 
+     RowBox[{
+     "to", " ", "find", " ", "the", " ", "derivative", " ", "of", " ", "V", 
+      RowBox[{"(", "t", ")"}]}]}], " ", "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"VPrime", "[", "t_", "]"}], " ", "=", " ", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"V", "[", "t", "]"}], ",", " ", "t"}], "]"}]}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Step", " ", "3"}], ":", " ", 
+     RowBox[{"Display", " ", "the", " ", "result"}]}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+     "To", " ", "view", " ", "the", " ", "result", " ", "of", " ", "the", " ",
+       "differentiation"}], ",", " ", 
+     RowBox[{
+     "simply", " ", "type", " ", "the", " ", "name", " ", "of", " ", "the", 
+      " ", "derived", " ", "function"}]}], " ", "*)"}], "\n", 
+   RowBox[{"VPrime", "[", "t", "]"}], "\n", "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{"Optional", " ", "Step", " ", "4"}], ":", " ", 
+     "Simplification"}], " ", "*)"}], "\n", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+     "If", " ", "the", " ", "result", " ", "seems", " ", "complex", " ", "or",
+       " ", "if", " ", "it", " ", "can", " ", "be", " ", "simplified", " ", 
+      "further"}], ",", " ", 
+     RowBox[{"use", " ", "the", " ", "Simplify", " ", "function"}]}], " ", 
+    "*)"}], "\n", 
+   RowBox[{
+    RowBox[{"VPrime", "[", "t_", "]"}], " ", "=", " ", 
+    RowBox[{"Simplify", "[", 
+     RowBox[{"VPrime", "[", "t", "]"}], "]"}]}]}]}]], "Code",
+ CellChangeTimes->{{3.9039137015053034`*^9, 3.9039137332519846`*^9}, {
+  3.903913784400879*^9, 3.903913785416221*^9}, {3.903913990658127*^9, 
+  3.9039139997211385`*^9}},ExpressionUUID->"60f8473f-3411-4f71-9afd-\
+3b4897be4721"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{571, 463},
+WindowMargins->{{189, Automatic}, {11, Automatic}},
+Magnification:>0.8 Inherited,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"94cab4a0-6964-4c6b-9c9d-e1ba020930fa"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 167, 3, 78, "Title",ExpressionUUID->"0305ffca-7313-42d5-874b-9c4c2f3ba761"],
+Cell[CellGroupData[{
+Cell[772, 29, 158, 3, 55, "Chapter",ExpressionUUID->"651258aa-5445-4d09-9fac-90733af29f65"],
+Cell[933, 34, 631, 18, 46, "Text",ExpressionUUID->"3f93ed21-b3d8-4265-9854-d8292bd7f919"],
+Cell[1567, 54, 4409, 117, 336, "Code",ExpressionUUID->"4f07bd2d-1d7c-490f-b00a-eff36c7ee76a"],
+Cell[5979, 173, 349, 7, 28, "Text",ExpressionUUID->"46deebc6-e544-4d2c-a770-72a29cb18c9f"],
+Cell[6331, 182, 573, 15, 18, "InlineFormula",ExpressionUUID->"f410ed47-4911-4ee0-a30b-63b7306395aa"],
+Cell[CellGroupData[{
+Cell[6929, 201, 4371, 111, 378, "Code",ExpressionUUID->"dafddb1e-b948-411e-826a-923a9fc8d1b1"],
+Cell[11303, 314, 425, 10, 23, "Message",ExpressionUUID->"dd5d9134-5ed0-48f9-91ed-eba3e640da1a"],
+Cell[11731, 326, 155, 2, 25, "Output",ExpressionUUID->"7380205a-46ce-41ca-b733-7f538734f3d7"],
+Cell[11889, 330, 149, 2, 25, "Output",ExpressionUUID->"07a70e9c-c16e-46f8-bc0b-f7061572bce1"],
+Cell[12041, 334, 189, 4, 25, "Output",ExpressionUUID->"04a61b63-bae5-43af-bfd1-6147ba4dc12f"],
+Cell[12233, 340, 171, 3, 25, "Output",ExpressionUUID->"cfeb05d5-528d-4fba-90f7-c9b6efc0e3ec"],
+Cell[12407, 345, 201, 4, 25, "Output",ExpressionUUID->"0b5706df-a919-451b-a3fd-b740aca73abc"],
+Cell[12611, 351, 250, 6, 25, "Output",ExpressionUUID->"a79b5448-8293-4e06-9a59-6ad0b8b238d6"],
+Cell[12864, 359, 1776, 51, 202, "Output",ExpressionUUID->"6b2f0767-0e7f-4c1b-916d-f0a616d0626e"]
+}, Open  ]],
+Cell[14655, 413, 517, 15, 32, "Text",ExpressionUUID->"f2e34bc2-130c-4e46-a4da-decaa6773749"],
+Cell[15175, 430, 2660, 69, 237, "Code",ExpressionUUID->"60f8473f-3411-4f71-9afd-3b4897be4721"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

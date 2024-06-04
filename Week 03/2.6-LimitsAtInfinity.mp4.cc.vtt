@@ -1,0 +1,299 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:12.000
+Video for section point 6, limit and infinity horizontal ascent. Just describe what a symbol means the limit of f of x as x approaches infinity.
+
+00:00:12.000 --> 00:00:20.000
+We're going to compute some incident limits not an indeterminate form and then we will compute some infinite limits that are in independent form.
+
+00:00:20.000 --> 00:00:30.000
+So let's start with what does the what do these 2 symbols mean? The limit of f of x as x approaches infinity or negative infinity, equaling some limit l.
+
+00:00:30.000 --> 00:00:38.000
+But here's what it it means. We say that the limit of f of x is x approaches infinity equals l if.
+
+00:00:38.000 --> 00:00:42.000
+Whenever values of f of x get arbitrarily close to Li requiring X to be arbitrary large.
+
+00:00:42.000 --> 00:00:52.000
+So what does this mean? So let's just look at a picture. I'm gonna start with a graph that you could actually look at.
+
+00:00:52.000 --> 00:01:09.000
+Over at minus one, probably no surprise that this has a vertical acid right here at one. But what we're interested is what happens when we plug in gigantic values of Act or for that matter very negative values of X.
+
+00:01:09.000 --> 00:01:20.000
+And when you graph this, you get something that like this. Here and then you get something that looks like this.
+
+00:01:20.000 --> 00:01:29.000
+Here and what you see much like this dotted line here indicates that this graph gets infinitely close to but never quite touches.
+
+00:01:29.000 --> 00:01:43.000
+This value x equals one. There's a similar. Right here. At y equals one and it turns out as x gets infinitely large.
+
+00:01:43.000 --> 00:02:03.000
+This limit. As x approaches infinity approaches one and similarly as x approaches negative infinity. The limit equals one and the reason for that is that again the graph gets infinitely close to this y value by requiring x to be arbitrarily marked.
+
+00:02:03.000 --> 00:02:19.000
+Now, what can happen when we talk about, For example, it is possible, Limit is 0.
+
+00:02:19.000 --> 00:02:27.000
+And you know, the here may do a lot of things. One thing that, people sometimes Is that sometimes we get this?
+
+00:02:27.000 --> 00:02:39.000
+Picture of this oscillation. But if my oscillations, smaller, smaller, and they really start to.
+
+00:02:39.000 --> 00:02:48.000
+One number. That can also be a horizontal limit. This particular drop, you might pay the limits.
+
+00:02:48.000 --> 00:02:57.000
+As x approach is negative infinity of f of x. Equals 0, because I see that happening on the left.
+
+00:02:57.000 --> 00:03:10.000
+Negative 2 then the limit. As equals negative 2. They all that we're requiring.
+
+00:03:10.000 --> 00:03:23.000
+Now we get infinitely close to some y value that we're calling capital L as x, it's infinitely big in the positive direction or infinitely small in the negative.
+
+00:03:23.000 --> 00:03:28.000
+Okay, so let's compute. Oh, and I of course they should say that we call these things horizontal absentodes.
+
+00:03:28.000 --> 00:03:41.000
+So when something like this happens, we call it a horizontal asymptote. So let's look at some examples of computing infinite limits and let's piece one.
+
+00:03:41.000 --> 00:03:50.000
+This is the case when things are not in form. This is going to be a little hand wavy, a little lazy.
+
+00:03:50.000 --> 00:03:57.000
+There are precise reasons for why this is true, but for us in in this particular course, I think it's okay if we just.
+
+00:03:57.000 --> 00:04:04.000
+Use kind of what our gut tells us in some other common sense sort of things. So here's what I mean by this.
+
+00:04:04.000 --> 00:04:09.000
+Let's take this limit as x approaches infinity. Well, if I look at this. And I'm gonna really abuse notation.
+
+00:04:09.000 --> 00:04:21.000
+This is a big abuse of notation. This is 8 times infinity squared. Plus infinity. And it's the neatest thing, right?
+
+00:04:21.000 --> 00:04:31.000
+If I take infinity and I square it. It is still infinity. And if I multiply by 8, it's still infinity.
+
+00:04:31.000 --> 00:04:40.000
+And when I add these together, it's still in. And when I take the square root of infinity, it is infinity.
+
+00:04:40.000 --> 00:04:47.000
+So the limit of this expression is infinity. And if you don't believe me, you are welcome to look at this on a calculator.
+
+00:04:47.000 --> 00:04:56.000
+I graph this on decimals and take a look at what happens as x continues to grow, it turns out that this gets infinitely big as well.
+
+00:04:56.000 --> 00:05:16.000
+On the other hand, and this is one, this is a big time rule for us. If I take the limit as x approaches infinity and I get 5 divided by infinity, If we have a fraction that has an infinitely big denominator and just a a constant as a numerator that immediately becomes 0 without any questions.
+
+00:05:16.000 --> 00:05:24.000
+Whatsoever. So this is an important one. Anytime we're going to see this a little bit later in the video.
+
+00:05:24.000 --> 00:05:28.000
+Anytime we have a constant divided by infinity, we know that's that's immediately 0, right?
+
+00:05:28.000 --> 00:05:37.000
+Did not big denominators make for small fractions. So the biggest denominator makes for 0.
+
+00:05:37.000 --> 00:05:45.000
+These last 2 were a little bit of a surprise. And these are just, I think some functions that it's good to know these things off the top of our head.
+
+00:05:45.000 --> 00:05:54.000
+So real fast. I'm gonna flash back for a second. I'm gonna graph. And I don't know if you remember this about engines.
+
+00:05:54.000 --> 00:05:57.000
+But tangent is the, you know, sign and cosine of a nice pretty kind of up and down things.
+
+00:05:57.000 --> 00:06:07.000
+Our tangent comes out of nowhere with a whole lot going on. Well, I'm gonna focus on the first little chunk of tangent.
+
+00:06:07.000 --> 00:06:14.000
+And from negative pi over 2, pi over 2. Does this thing where kinda goes up. Like this and then it comes back and does something like that.
+
+00:06:14.000 --> 00:06:27.000
+So this is. The tangent function. What we're asked about is the inverse tangent function.
+
+00:06:27.000 --> 00:06:35.000
+So here's what I want us to consider or kind of think about. The way inverse functions work.
+
+00:06:35.000 --> 00:06:41.000
+Whopping, I'm switching the inverse in the. I'm flipping the output and the input.
+
+00:06:41.000 --> 00:06:51.000
+So this says if my input goes to infinity. What is the output? Well, let me rewrite that in terms of perhaps the original function.
+
+00:06:51.000 --> 00:07:02.000
+The tangent. What gives me infinity or at least in the limit sense. And so here I get an easy breezy.
+
+00:07:02.000 --> 00:07:12.000
+Hi, over 2, that if you look at the inverse tangent function as x goes to infinity, the arc tangent of x goes to pi over 2 and then very similar.
+
+00:07:12.000 --> 00:07:19.000
+If I were to ask this question, when is the tangent of x, we may give infinity. That happens over here.
+
+00:07:19.000 --> 00:07:31.000
+With an x value of negative pi over 2 so as an inverse the x value becomes my output. And these are 2 important.
+
+00:07:31.000 --> 00:07:35.000
+Properties to know about our content, about horizontal asymptotes, limits to infinity and minus infinity.
+
+00:07:35.000 --> 00:07:47.000
+So some examples with some non-trivial. The last thing I wanna do in this video is look at some examples that are in indeterminate form.
+
+00:07:47.000 --> 00:08:06.000
+So let's start with this type of example. Okay, this type of example if I let x approach infinity Notice I get, this is like a very infinite thing divided by a very, and it just looks like infinity divided by infinity.
+
+00:08:06.000 --> 00:08:14.000
+This is an example of my indeterminate form. It's got very similar to 0 divided by 0.
+
+00:08:14.000 --> 00:08:22.000
+Earlier we saw the only way to get something out of indeterminate form for now is to use some kind of.
+
+00:08:22.000 --> 00:08:33.000
+And the algebra we are going to use. It's after you look at this, Not really a lot of factoring to be done here, but watch this.
+
+00:08:33.000 --> 00:08:39.000
+I'm gonna factor out an x squared.
+
+00:08:39.000 --> 00:08:52.000
+And this was this was big time right here. This is not a normal way to factor something. But I hope I can convince you, maybe this was a surprise, but if I take this x squared and I distribute it back.
+
+00:08:52.000 --> 00:09:00.000
+Right, this becomes 3 x squared, that becomes x, that becomes 3, and that's exactly what I have in this numerator.
+
+00:09:00.000 --> 00:09:11.000
+And then similarly, I'm going to fact that an x squared.
+
+00:09:11.000 --> 00:09:22.000
+And look at what happens, right? And this is so similar to what we saw in some previous videos is that I feel like things start to work better for us.
+
+00:09:22.000 --> 00:09:32.000
+Just as soon as some things cancel. There's some X values cancelled for the
+
+00:09:32.000 --> 00:09:44.000
+3 minus one over x plus 3 over x squared divided by 5 plus 10 over x plus 100 over x squared.
+
+00:09:44.000 --> 00:09:58.000
+And now as I take this limit right here. I'm gonna be reminded of something. Whenever I take a limit and I get a constant divided by infinity, the result is 0.
+
+00:09:58.000 --> 00:10:09.000
+And so look at what I have here. This is as X approaches infinity, this becomes one over infinity.
+
+00:10:09.000 --> 00:10:23.000
+0. This becomes 3 over. That becomes 10 over infinity. 100 over infinity squared and look how comically simple this becomes.
+
+00:10:23.000 --> 00:10:31.000
+3 fifths. Unbelievable, so simple, worked so fast.
+
+00:10:31.000 --> 00:10:43.000
+Here is our next example. Right, here's our next example. So I look like this. I notice that if I plug in infinity, this becomes infinity.
+
+00:10:43.000 --> 00:10:50.000
+So what I'm going to do, look, there are a couple of ways to approach this. There are a couple of ways to do this.
+
+00:10:50.000 --> 00:10:56.000
+I can factor out an X. Or minus one over x.
+
+00:10:56.000 --> 00:11:07.000
+And I could do the same thing here. X squared. 3 minus 4 over x.
+
+00:11:07.000 --> 00:11:16.000
+And that's the same thing as the limit as x approaches infinity. Of one over x.
+
+00:11:16.000 --> 00:11:28.000
+4 minus one over x. 3 minus 4 over x. A little less clear or maybe a little more complicated, but I think things will be okay.
+
+00:11:28.000 --> 00:11:39.000
+If I take the limit as x approaches infinity. The numerator approaches. Or the denominator approaches.
+
+00:11:39.000 --> 00:11:51.000
+3 finds infinity, right? See how this x canceled with one of these x's. This becomes 4, this becomes 3, that becomes one, that becomes infinity.
+
+00:11:51.000 --> 00:11:59.000
+And when I get something like 4 over and I get and answer is 0.
+
+00:11:59.000 --> 00:12:03.000
+Excellent.
+
+00:12:03.000 --> 00:12:11.000
+And then this last one is one that I want to focus on and I give you a little warning, even trickier than we realize.
+
+00:12:11.000 --> 00:12:18.000
+So I'm looking at this. If I plug in infinity, I get a weird kind of square root of infinity thing over infinity.
+
+00:12:18.000 --> 00:12:30.000
+I immediately recognize that this is in determinant form. Are too difficult to eyeball. What I'm going to I'm going to factor.
+
+00:12:30.000 --> 00:12:36.000
+I'm gonna be, and so I start with things.
+
+00:12:36.000 --> 00:12:44.000
+That was the easy part. Now what happens? What's gonna happen now is I'm gonna leave this where route.
+
+00:12:44.000 --> 00:12:59.000
+And I am gonna factor out an x squared. 8 plus. One over X. Plus one over x squared.
+
+00:12:59.000 --> 00:13:15.000
+So see how I've done some algebra. Inside the square root. And then I spare a huge algebra headache sometimes.
+
+00:13:15.000 --> 00:13:25.000
+But one place, sorry, one place they're not too too difficult is when we multiply. So this x squared is multiplied by this entire set.
+
+00:13:25.000 --> 00:13:36.000
+So this becomes the square root. Of x squared. Thanks the square root. 8 plus one over X.
+
+00:13:36.000 --> 00:13:40.000
+Plus one over x squared.
+
+00:13:40.000 --> 00:13:49.000
+And what is that? Well, that's the limit as x approaches infinity. I'm gonna put a little star here because this is true.
+
+00:13:49.000 --> 00:13:56.000
+I'll be, we need to be very careful about this. If I take the square root of x squared.
+
+00:13:56.000 --> 00:14:04.000
+The answer is X. Only because I'm taking the limit as x approaches infinity. So for example, if I start with 5 and I square it and I square root it, I get 5.
+
+00:14:04.000 --> 00:14:17.000
+If I start with 10 and I square it and I square root it, I get 10. If I start with a million square square root root, I get a million.
+
+00:14:17.000 --> 00:14:26.000
+All of that's great. The issue is what if x were negative? For example, if x were negative one.
+
+00:14:26.000 --> 00:14:33.000
+Negative one squared is one square rooted as one yikes. All of a sudden what I start with and what I end with are different.
+
+00:14:33.000 --> 00:14:39.000
+And that's going to be something for us to consider perhaps in class. We're not going to talk about it in this video in this video because we're only going to be looking at these positive examples.
+
+00:14:39.000 --> 00:14:49.000
+This to this is true, but we need to be careful about that rule we just use.
+
+00:14:49.000 --> 00:14:55.000
+Once I use it, everything worked out really nice.
+
+00:14:55.000 --> 00:15:05.000
+Okay. 2 plus 9 over. I'm going to cancel these X's. I take the limits.
+
+00:15:05.000 --> 00:15:15.000
+That, that, All go to 0. And I'm left with the square root of 8 plus 0 plus 0.
+
+00:15:15.000 --> 00:15:27.000
+Over 2, which is the square root of 8. Over 2 8 though is the same thing as the spirit of 4 times 2.
+
+00:15:27.000 --> 00:15:38.000
+. Over Which is, times the square root of 4 times the square root of 2. Over 2, but the square root of 4 is 2.
+
+00:15:38.000 --> 00:15:50.000
+And believe it or not, the answer to this limit is just the square root of 2. So those are some good examples with taking limits, finding horizontal asymptotes.
+
+00:15:50.000 --> 00:15:57.000
+The thing I will say that we have sort of neglected, is what happens if this limit is not infinity but negative infinity.
+
+00:15:57.000 --> 00:16:11.000
+How much more difficult
+

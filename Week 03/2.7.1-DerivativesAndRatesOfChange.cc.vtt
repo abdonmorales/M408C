@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:13.000
+This is section 2.7 derivatives and rates of change part one. So in this video, we are going to state 2 definitions of what we're going to call a derivative.
+
+00:00:13.000 --> 00:00:21.000
+And then we're going to relate the position function and the velocity function back to these things called derivatives.
+
+00:00:21.000 --> 00:00:29.000
+So in the previous videos, I'm talking a long time ago. We had this way to describe the slope of a tangent line.
+
+00:00:29.000 --> 00:00:37.000
+And I'm going to use now our new limit notation, a limit as x approaches a of f of x minus f of a over x minus a.
+
+00:00:37.000 --> 00:00:45.000
+And rank just so we have a picture in our head. Maybe here's my graph.
+
+00:00:45.000 --> 00:00:58.000
+Here is the x value a. Maybe we have some sort of Here is my F of X. And so here is the idea.
+
+00:00:58.000 --> 00:01:07.000
+Here is NX value. And through this, I can find this secret line. I can find that slope.
+
+00:01:07.000 --> 00:01:13.000
+Well, here is an X value that's a little bit closer. That's going to give me that point.
+
+00:01:13.000 --> 00:01:28.000
+That's going to give me this secant line. And then I can pick maybe this. But then maybe I can take this x value that's a lot closer.
+
+00:01:28.000 --> 00:01:35.000
+That's gonna give me this secret line. And as I get closer and closer to A, I get the secret lines that get closer and closer to the tangent line.
+
+00:01:35.000 --> 00:01:46.000
+So maybe if I let x approach a and get infinitely close. The results will be this tangent line and that's exactly what we're going to claim here.
+
+00:01:46.000 --> 00:01:58.000
+If I take this limit the result is the slope of the tangent line. Now it turns out this thing right here is wildly important.
+
+00:01:58.000 --> 00:02:08.000
+This is something that we are going to be studying. A whole lot in this course. But because this expression is very, very, very important, it's going to get its own name.
+
+00:02:08.000 --> 00:02:27.000
+And we're going to call this limit the derivative of f at x equals a. So I want to find the derivative of a function at x equals a.
+
+00:02:27.000 --> 00:02:35.000
+We take the limit as x approaches a of this expression up above. And again, all this is doing is it's helping me find the slope.
+
+00:02:35.000 --> 00:02:42.000
+Of the tangent line at x equals a. So let's let's do an example of this.
+
+00:02:42.000 --> 00:02:50.000
+So I'm going to be very careful and use the definition I have up above. So f prime of 3.
+
+00:02:50.000 --> 00:03:01.000
+Is the limit as x? Okay. Okay. That's minus.
+
+00:03:01.000 --> 00:03:18.000
+3 over X minus 3. That's the same thing as 2 X. Where whoops, the of 2 x where minus x.
+
+00:03:18.000 --> 00:03:33.000
+Minus the quantity. 2 times 3 squared. Minus 3. Over x minus 3.
+
+00:03:33.000 --> 00:03:51.000
+You keep going with this, so this is the limit. As x approaches 3 of. 2 x where minus x do some math here 9 18 minus 3 is 15.
+
+00:03:51.000 --> 00:04:00.000
+Over x minus 3. I would love to just plug in 3 and be done. But when I plug in 3, this becomes.
+
+00:04:00.000 --> 00:04:10.000
+18 minus 3 is 15 over 15 is 00 man, this becomes 0 divided by 0. This is my indeterminate form.
+
+00:04:10.000 --> 00:04:29.000
+So in that kind of thing happens in this class. One of our goats strategies is And I, This is X, probably minus.
+
+00:04:29.000 --> 00:04:40.000
+3 and plus. 5 and sure enough if I foil this out and double check my work, I get exactly the thing of perform.
+
+00:04:40.000 --> 00:04:46.000
+This cancels. And I get a limit.
+
+00:04:46.000 --> 00:05:05.000
+As x to 3. Of 2 x plus 5 and wouldn't you know that is exactly Oh, That is exactly 11 and you know what that looks pretty good to me that seems like a totally reasonable answer.
+
+00:05:05.000 --> 00:05:14.000
+That seems like a totally reasonable answer. Now I promised you earlier that they were going to be 2 or that go 2 definitions of a limit.
+
+00:05:14.000 --> 00:05:21.000
+Or seems to be 2 definitions of a derivative. So let me show you the second definition. So this second definition.
+
+00:05:21.000 --> 00:05:29.000
+Is the limit as h approaches 0 of f of a plus h minus f of a over a plus h minus a.
+
+00:05:29.000 --> 00:05:39.000
+Notice it's the same as this formula here. Except I've got a slightly different convention.
+
+00:05:39.000 --> 00:05:49.000
+No wanna show you what's happening. I'm gonna draw one more picture for us. This picture says if here is my function.
+
+00:05:49.000 --> 00:05:59.000
+And I'm interested in the derivative at A. Well, let's consider the points. A and A plus H.
+
+00:05:59.000 --> 00:06:09.000
+So see how that's going to give me maybe This secret line. When H is this value, but as H gets closer to 0.
+
+00:06:09.000 --> 00:06:17.000
+I'm gonna get something more like this secant line. And as H gets closer to 0, it's gonna give me this secant line.
+
+00:06:17.000 --> 00:06:25.000
+And the limit of this process is precisely. That tangent line right there. So it's the same idea.
+
+00:06:25.000 --> 00:06:39.000
+Just a slightly different setup. Whether or not we're letting x approach a or letting h approach 0 and as h approaches 0, this quantity approaches a very similar, similar idea.
+
+00:06:39.000 --> 00:06:45.000
+Let's do the exact same thing we did on the previous page and make sure we get the same answer.
+
+00:06:45.000 --> 00:06:56.000
+So f prime of 3. Is the limit. As H approach to 0. Okay.
+
+00:06:56.000 --> 00:07:06.000
+Minus f of 300, and I meant to point this out. So notice in, in my, denominator, I'm gonna take the first point.
+
+00:07:06.000 --> 00:07:17.000
+3 plus H. Minus the second point 3. And look at what happens and this happens up above this 3 and this 3 cancel gives me H.
+
+00:07:17.000 --> 00:07:29.000
+And that's exactly what I have in this formula. Here I forgot to point that out. One nice thing about this form is that my denominator is always super simple.
+
+00:07:29.000 --> 00:07:35.000
+Now let's look at the rest of this. How was this going to? Let me remind myself.
+
+00:07:35.000 --> 00:07:44.000
+Was 2 x where minus. Okay, so if I'm computing this. I get the limit.
+
+00:07:44.000 --> 00:07:58.000
+As H approaches 0. Of 2. 3 plus h squared. Minus 3 plus h.
+
+00:07:58.000 --> 00:08:11.000
+Minus 2 times 3 squared minus 3. Divided by 8. So I'm noticing this is a bit more chaotic.
+
+00:08:11.000 --> 00:08:20.000
+There's a lot more going on here. I hope this works out. I bet it does. This is me 2 times.
+
+00:08:20.000 --> 00:08:33.000
+9 plus 6 8. Plus each where. Minus 3 minus h. Minus and let's see this quantity is.
+
+00:08:33.000 --> 00:08:51.000
+18 minus 3 is 15. All divided by H. This is the limit. As H approaches 0 of so let's see this is 18.
+
+00:08:51.000 --> 00:09:07.000
+Plus 12 H. Plus 2 H squared. Minus 3 minus h minus 15 over h. Things are finally simplifying.
+
+00:09:07.000 --> 00:09:18.000
+Things are finally simplifying. Notice. This 18 cancels with that 3 15 so 18 minus 3 minus 15 is 0.
+
+00:09:18.000 --> 00:09:26.000
+And if I look at this, it looks like it is 2 8. Squared minus 11 H. Over 8.
+
+00:09:26.000 --> 00:09:33.000
+I could try plugging in 0. That gives me 0 over 0. But that's no good.
+
+00:09:33.000 --> 00:09:42.000
+But like we've talked about all semester so far. I can factor something out. I can do some algebra.
+
+00:09:42.000 --> 00:09:53.000
+Oh, sorry. But factor out the eighth and I get 2 8 plus 11. Divided by H. And I get a limit.
+
+00:09:53.000 --> 00:10:01.000
+As H approaches 0 of 2 8 plus 11. That gives me 0 plus 11. And how remarkable is that?
+
+00:10:01.000 --> 00:10:14.000
+That 11 is the same. The same as the answer I got using the other definition. So this is good.
+
+00:10:14.000 --> 00:10:24.000
+I will say 2 things. Oftentimes they work here is not nearly as difficult. This definition, I think, is a little bit easier often times.
+
+00:10:24.000 --> 00:10:28.000
+This is a little more involved. There's a little more algebra that happens. And believe it or not, this is going to be key for what happens in the next.
+
+00:10:28.000 --> 00:10:42.000
+This is very important for us. We're really gonna lean into this definition here. in the next section.
+
+00:10:42.000 --> 00:10:52.000
+One more thing we should talk about. So let's talk about what S prime is. So f prime of a.
+
+00:10:52.000 --> 00:10:56.000
+This is the slope of the. At the point x equals a. So that's weird to say, right?
+
+00:10:56.000 --> 00:11:05.000
+Think about the slope of a function. The function might be a quadratic or exponential or trig.
+
+00:11:05.000 --> 00:11:10.000
+We don't think of these curved functions as having a slope, but that's what we can think of.
+
+00:11:10.000 --> 00:11:21.000
+We can think of a function. Having a slope at a point and if that's a little too tough it's also perfectly fine to think of it as just the slope of the line tangent to the graph.
+
+00:11:21.000 --> 00:11:30.000
+At that point. But it's another thing too. It's not just the slope, it's also the instantaneous rate of change of x.
+
+00:11:30.000 --> 00:11:39.000
+So we were trying to measure how fast something is changing. We often want to take the derivative. So let's take a step back and ask this question.
+
+00:11:39.000 --> 00:11:53.000
+If I have the position function. S prime is the instantaneous rate of change of position, right? That's what that's what the derivative measures, the instantaneous rate of change.
+
+00:11:53.000 --> 00:12:02.000
+But, conceptually, what is the instantaneous rate of change of position that is instantaneous velocity, right?
+
+00:12:02.000 --> 00:12:09.000
+If I'm measuring the rate of change of where a function is, well, we just call that velocity.
+
+00:12:09.000 --> 00:12:25.000
+Which leads to this really important formula that relates to related ideas. The derivative of position is velocity. And one thing that's also true Is that the derivative of velocity is acceleration, right?
+
+00:12:25.000 --> 00:12:37.000
+I can think about this as, what happens if you slam on the accelerator while you are your velocity, the speed of your car is going to presumably speed up, right?
+
+00:12:37.000 --> 00:12:45.000
+You go from slow to fast, that is an acceleration. And similar, if you slam on the brakes and your velocity decreases presumably to 0, that is a negative acceleration or D accelerate.
+
+00:12:45.000 --> 00:12:56.000
+So, so we have these these formulas for derivatives that we can route to these topics very often seen business.
+
+00:12:56.000 --> 00:13:05.000
+Okay, so real fast. A car is traveling with position s of t equals 2 t squared minus t.
+
+00:13:05.000 --> 00:13:15.000
+How fast is this traveling at T equals 3? So we this. Right? We pick this because it's incredibly familiar.
+
+00:13:15.000 --> 00:13:28.000
+How fast is it traveling? At time 3 and I say how fast maybe I should just say what is the velocity of time 3 I don't want to worry about positive or negative what is the velocity at time 3?
+
+00:13:28.000 --> 00:13:35.000
+Well, the velocity at 23. Is the derivative of the position function at time 3. But I've already done this before, right?
+
+00:13:35.000 --> 00:13:41.000
+I've computed this derivative at 3 twice. It is 11 whatevers. We don't have units here.
+
+00:13:41.000 --> 00:13:49.000
+So we'll just, we'll just call it.
+
+00:13:49.000 --> 00:14:06.000
+Now I did all of this and there's this issue lurking in the background, right? So suppose I wanted the position, excuse me, suppose I wanted the velocity at time one and 2 and 3 and 4 all the way up to 10.
+
+00:14:06.000 --> 00:14:17.000
+Does that mean I have to compute 10 different limits? Well, where we are right now, the answer is yes, that I don't have a good way of finding the derivative.
+
+00:14:17.000 --> 00:14:27.000
+At 10 different values. Aside from taking 10 different derivatives. And that's not, you know, if it didn't get better than this.
+
+00:14:27.000 --> 00:14:28.000
+I don't know if I don't know if calculus really would have taken off the way it did.
+
+00:14:28.000 --> 00:14:31.000
+So things are going to get a little bit better. They're going to get a little bit faster.
+
+00:14:31.000 --> 00:14:36.000
+And the first thing we're going to see is that we shouldn't have to take a limit over and over and over again.
+
+00:14:36.000 --> 00:14:48.000
+But
+

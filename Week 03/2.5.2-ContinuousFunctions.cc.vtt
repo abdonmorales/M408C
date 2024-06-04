@@ -1,0 +1,314 @@
+WEBVTT
+
+00:00:05.000 --> 00:00:10.000
+Hmm.
+
+00:00:10.000 --> 00:00:18.000
+Okay. I mean, We're gonna stay and use the intermediate.
+
+00:00:18.000 --> 00:00:28.000
+In the previous video, we talked about what happened. Multiply by functions and whether or not the result.
+
+00:00:28.000 --> 00:00:53.000
+I think it's, maybe with the exception of beginning. Additional way to combine functions. When is that?
+
+00:00:53.000 --> 00:01:01.000
+And here's the rules. It's particularly difficult although it looks a little overwhelming when we see it.
+
+00:01:01.000 --> 00:01:16.000
+The function G has to be. Okay. And the function f has to be continuous at g of a, then the result.
+
+00:01:16.000 --> 00:01:29.000
+Here are 3 functions. And these are functions, right? In each case, we have a function, for example, 2 x minus 3 sitting inside of the square root function.
+
+00:01:29.000 --> 00:01:41.000
+We have x over x minus one taking inside of the sine function. We have the square root function spin inside of e to the Yeah.
+
+00:01:41.000 --> 00:01:55.000
+And so let's take a look and determine if these 3 functions are continuous. At one. So what I'm going to do is I'm first going to look at the inside function.
+
+00:01:55.000 --> 00:02:09.000
+Using the notation we have up above. I my phone. Equal to x minus 3. And I see that if I plug in one.
+
+00:02:09.000 --> 00:02:22.000
+This is like a totally reasonable answer. Not one. D of one equals 2. This is negative one. I was silly.
+
+00:02:22.000 --> 00:02:29.000
+Sorry about that. If I plug one into 2 X minus 3. Totally reasonable, nothing surprised the limit exists.
+
+00:02:29.000 --> 00:02:37.000
+The function exists at the point. We get negative one. Okay. So now this.
+
+00:02:37.000 --> 00:02:47.000
+Is my new value and I'm going to ask is the function f of x the bigger function. What happens if I bug in?
+
+00:02:47.000 --> 00:02:55.000
+What happens if I plug in this negative one? And that's where we see we get something like the square root of negative one.
+
+00:02:55.000 --> 00:03:02.000
+And this does not exist, so we are not. Continuous.
+
+00:03:02.000 --> 00:03:09.000
+So it's a little weird, right? We have to kind of follow the number, follow the input and see what happens.
+
+00:03:09.000 --> 00:03:20.000
+X started at one when I plugged one into the function, the one becomes negative one and the square root of negative one is not a thing we do in this class.
+
+00:03:20.000 --> 00:03:23.000
+So this is not continuous.
+
+00:03:23.000 --> 00:03:36.000
+Yeah. Now the second case, I'm gonna use the same. The inside function is x over x minus one.
+
+00:03:36.000 --> 00:03:43.000
+And so when I plug in one, I get something that is very undefined. Right? We're gonna say that does not because I cannot plug in one over 0 does not make sense.
+
+00:03:43.000 --> 00:04:00.000
+And since this does not exist, since this function is not continuous at one. The entire function. Minus one.
+
+00:04:00.000 --> 00:04:09.000
+Is not continuous. Act equals one. So, you know, when is a position of functions not continuous?
+
+00:04:09.000 --> 00:04:16.000
+Well, there's sort of 2 ways that can be not continuous. It can be not continuous right away because of that insight function.
+
+00:04:16.000 --> 00:04:26.000
+Or perhaps we plug in the input. The input turns into a new number and then that outside function is not continuous at that new number.
+
+00:04:26.000 --> 00:04:39.000
+And it's one position of G of X is. We already back. And so when I plug in one, I get the root of one with this one.
+
+00:04:39.000 --> 00:04:49.000
+And then, Could be apps. And so I'm going to plug in.
+
+00:04:49.000 --> 00:04:52.000
+My new number?
+
+00:04:52.000 --> 00:05:05.000
+And E to the X is a perfectly continuous function at x equals one. I plug in the results. You that nothing weird happens, no holes, no discontinuities, no asymptotes.
+
+00:05:05.000 --> 00:05:12.000
+. So therefore, Hmm.
+
+00:05:12.000 --> 00:05:23.000
+X equals one. So the proposition in the functions is a couple of things to check that not quite as simple as what we had before with addition to, the multiplication in the, but it is certainly nothing.
+
+00:05:23.000 --> 00:05:32.000
+Wildly difficult. We just have to be a little bit. Now the third part of this video takes a, a sort of.
+
+00:05:32.000 --> 00:05:41.000
+Let's talk about this thing that at least initially feels very theoretical. It's this thing called the intermediate value theorem.
+
+00:05:41.000 --> 00:05:52.000
+Let's start by kind of speaking. So suppose we have a function that is continuous. On some interval A to B.
+
+00:05:52.000 --> 00:06:02.000
+So now finally in this fifth section of chapter 2 we can use this word continuous. With a fair amount of certainty that we understand what it means.
+
+00:06:02.000 --> 00:06:05.000
+And let N be any number between F of A and F of B where these 2 numbers are not equal.
+
+00:06:05.000 --> 00:06:14.000
+This would not be a whole lot of sense or maybe we'd have to refine this a little bit.
+
+00:06:14.000 --> 00:06:24.000
+If these 2 numbers are equal. So let's assume we have this interval, it starts at A, it ends at B, it contains those endpoints.
+
+00:06:24.000 --> 00:06:35.000
+And when we plug in A and we plug in B, the result is 2 different numbers. Okay, well then there is an X value C such that.
+
+00:06:35.000 --> 00:06:47.000
+C is between A and B. And when I plug in C into the function, I get that number N, which is between F of A.
+
+00:06:47.000 --> 00:06:59.000
+That's all. Let's describe what this means. So here, let's.
+
+00:06:59.000 --> 00:07:08.000
+Let's have the. So this is the interval. I'm looking at. Let's say this is my app.
+
+00:07:08.000 --> 00:07:20.000
+And And this up here is my app. Oh, Let's put that over here.
+
+00:07:20.000 --> 00:07:29.000
+Over here. This is my app over here on the y-axis. Let's extend this a little bit.
+
+00:07:29.000 --> 00:07:35.000
+And so now what we're going to draw. From this point to this point. Is according to my theorem, I'm curious what happens when I draw a continuous function.
+
+00:07:35.000 --> 00:07:50.000
+We have this very nice, useful, precise definition about limits and value of function at a point, equaling the limit.
+
+00:07:50.000 --> 00:07:58.000
+Oh, line, you know, in our gut, it means don't pick up your pencil and don't have anything too wild happening.
+
+00:07:58.000 --> 00:08:05.000
+So I'm gonna start here. And I'm gonna draw this graph, maybe it goes up a little bit.
+
+00:08:05.000 --> 00:08:08.000
+Maybe it goes down.
+
+00:08:08.000 --> 00:08:27.000
+Maybe it goes back. You know, those infinite number. But I'm gonna draw And here's what the, what the intermediate value fear. The intermediate values theorem says start with any number.
+
+00:08:27.000 --> 00:08:30.000
+Between F of A and F of B. So I'm going to pick. I don't know.
+
+00:08:30.000 --> 00:08:43.000
+That looks like a perfectly reasonable number. There's my N. The the claim is that well then there must be some X value which we will call C.
+
+00:08:43.000 --> 00:08:55.000
+Such that C is between these 2 points and The value of f of c is n. And so when you draw this picture nicely, you see right away.
+
+00:08:55.000 --> 00:09:14.000
+Then if I go this way. Corresponds to this way sure enough here it is There is my C, this value is between A and B and if I plug in C to my function, I get the value F of C equals N.
+
+00:09:14.000 --> 00:09:25.000
+Okay, what if I tried something up here? I'm gonna call this and 2 is for the second value of n.
+
+00:09:25.000 --> 00:09:32.000
+Well notice here it looks like I have a couple values of C, right? I could have picked. This value of C.
+
+00:09:32.000 --> 00:09:41.000
+So that's one value of C. Or I could have picked that looks like this value. Let's see.
+
+00:09:41.000 --> 00:09:47.000
+Or it looks like maybe eventually, might even be a third one. Yeah, let's write it back here.
+
+00:09:47.000 --> 00:09:56.000
+Is it okay that I have multiple values of C that satisfy these property that these 1 2 3 value to see are between A and B.
+
+00:09:56.000 --> 00:10:02.000
+And if I plug any one of these into the function, I get into back. Is that okay? Absolutely.
+
+00:10:02.000 --> 00:10:10.000
+That's okay. The intermediate value theorem just says there is at least one C. Turns out there's lots of ways to get back to this N 2.
+
+00:10:10.000 --> 00:10:21.000
+What's interesting? Because this function is continuous there was at least one of them. Now warning, this does not say.
+
+00:10:21.000 --> 00:10:31.000
+Is that if you pick an X value between A and B, you are guaranteed a Y value between F of A and F of B.
+
+00:10:31.000 --> 00:10:47.000
+And I wanna point that out right here. This is a perfectly fine value between A and B. But if I hit If I looked at its output, see how the output F of this C.
+
+00:10:47.000 --> 00:10:52.000
+Is actually going to be outside of this Y interval. Is that okay? Is that is that held?
+
+00:10:52.000 --> 00:11:07.000
+Is this somehow counter to the description we have. And the answer is this is totally fine because the way the intermediate value theorem works is it says you start on the y-axis between f of a and f of b.
+
+00:11:07.000 --> 00:11:18.000
+And when you start between F of A and F of B, you can find an X value between A and B that gets you back to that value.
+
+00:11:18.000 --> 00:11:25.000
+What you can't do is start on the x-axis and be guaranteed to end up between A and B.
+
+00:11:25.000 --> 00:11:34.000
+Thank you start on the Y-axis jump to the. You know, move to the excess.
+
+00:11:34.000 --> 00:11:50.000
+And I suppose now Why this is Is let me So here is A. Here is what I'm going to do.
+
+00:11:50.000 --> 00:11:59.000
+And this picture right here is function.
+
+00:11:59.000 --> 00:12:11.000
+It just so happens to not be continuous, right? It is very not continuous right here. And I'm gonna draw.
+
+00:12:11.000 --> 00:12:24.000
+This is And why does suddenly the intermediate value theorem fail to be true? Well, this looks like a pretty great value.
+
+00:12:24.000 --> 00:12:33.000
+And is between A and B. If this function work continuous, then I would be able to find an X value C.
+
+00:12:33.000 --> 00:12:47.000
+That gives me back to that value end. But notice that value doesn't exist here. If I try to find the X value, I'm gonna fly right through that point and there's just no X value, right?
+
+00:12:47.000 --> 00:12:55.000
+There's no X value. That's gonna get me to that exact value.
+
+00:12:55.000 --> 00:13:05.000
+And that's the issue with when you have something that's not continuous, then the intermediate value theorem might not or is not going to necessarily be true.
+
+00:13:05.000 --> 00:13:15.000
+So we'll like to track this, class again. But let me show you kind of an interesting example.
+
+00:13:15.000 --> 00:13:21.000
+Suppose, oh, show there is a solution to this 1, 2, 3, 4, fifth degree polynomial.
+
+00:13:21.000 --> 00:13:35.000
+I suspect you are not solving Yes, degree polynomial. Linear things absolutely. Quadratic things of course.
+
+00:13:35.000 --> 00:13:43.000
+Cubic fourth degree fifth degree. Very unlikely. In fact, I'm quite certain that this is not something you would solve.
+
+00:13:43.000 --> 00:13:48.000
+And actually, as I said here today, I don't know if I can solve. And actually, as I sit here today, I don't know if I can solve this.
+
+00:13:48.000 --> 00:13:54.000
+This is a, this is a uniquely difficult thing in the world of mathematics. Why am I showing this to you now?
+
+00:13:54.000 --> 00:14:02.000
+What? That's x to the fifth minus x plus one. This is just a polynomial.
+
+00:14:02.000 --> 00:14:17.000
+And I know, are continuum. Right, this is a continuous function. I work too. Look at the graph of this function.
+
+00:14:17.000 --> 00:14:24.000
+Let's suppose I want to find the value of one. Well, if I plug in one, that's the same thing as the y.
+
+00:14:24.000 --> 00:14:27.000
+And it's going to be this point right here. But then look at what happens when I plug in one.
+
+00:14:27.000 --> 00:14:37.000
+One to the fifth is one. Minus 5 plus one. I think I get this become negative 3.
+
+00:14:37.000 --> 00:14:48.000
+One minus 5 plus one. If I think about this as a function, if my input is one, my output is negative 3.
+
+00:14:48.000 --> 00:14:58.000
+And so my graph looks. What does this function do between x to the fifth? What does this function do?
+
+00:14:58.000 --> 00:15:03.000
+The, and x equals one. Well, I don't know. You know, up to the fifth.
+
+00:15:03.000 --> 00:15:11.000
+That can be kind of a wild thing. Go up and down a lot, have a couple of these peaks and valleys.
+
+00:15:11.000 --> 00:15:23.000
+But I know it's continuing. Maybe it's going up for a little bit, maybe. Now, And then it continues on and on and on.
+
+00:15:23.000 --> 00:15:38.000
+But notice this is One, this is. Negative 3. So I'm guaranteed by the intermediate value theorem.
+
+00:15:38.000 --> 00:15:47.000
+I should be able to pick. Any value between in one and negative 3. I think this really important one.
+
+00:15:47.000 --> 00:16:00.000
+0. And now the question is. Hey, does this equation ever equal 0 between negative one? Well, since we start above 0.
+
+00:16:00.000 --> 00:16:20.000
+And I end below 0. And this is a continuous function. I know by the along here. A value of C between 0 and one for which f of c
+
+00:16:20.000 --> 00:16:31.000
+Equals 0. But that's the same value that's going to make this 0. You know?
+
+00:16:31.000 --> 00:16:45.000
+Yeah, minus 5. 0. As a. Between x equals 0 and x equals one.
+
+00:16:45.000 --> 00:16:54.000
+Do I know what the solution is? I do not. But sometimes just knowing that a solution exists is good enough for us.
+
+00:16:54.000 --> 00:17:08.000
+And this is a way for me to say that because I start above 0, I end below 0. And I can start with 0 and know that there's no jumps, nothing weird happening with the.
+
+00:17:08.000 --> 00:17:20.000
+That in fact I know that that value between 0 one exists that I know for that. At this 0 makes this fifth degree polynomial 0.
+
+00:17:20.000 --> 00:17:26.000
+I know the floor is a solution. Powerful thing. Later on. Question what else are there more applications to the Are there more things you need to say about continuously?
+
+00:17:26.000 --> 00:17:40.000
+Okay
+

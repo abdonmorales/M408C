@@ -1,0 +1,137 @@
+WEBVTT
+
+00:00:01.000 --> 00:00:08.000
+This is the second video for section 2.7. Derivatives and rates of change. In this video, we're going to do one thing.
+
+00:00:08.000 --> 00:00:11.000
+We are going to find the equation of a line. Tangent to the graph of a function at a point.
+
+00:00:11.000 --> 00:00:23.000
+Very standard thing to do in calculus one once you learn about derivatives. So here's the question we're going to answer.
+
+00:00:23.000 --> 00:00:34.000
+Find the equation of the line. Tangent to f of x equals x squared minus x. The point or at the x value x equals 3.
+
+00:00:34.000 --> 00:00:43.000
+Okay, so how do we solve something like this? So notice that the thing we are looking for is ultimately the equation of a line.
+
+00:00:43.000 --> 00:00:56.000
+So where we should start. Is a quick review of our formulas for lines. The first one is the one that I think most of us learned first.
+
+00:00:56.000 --> 00:01:10.000
+And that's the slope intercept form of a line. Let's plus b where m is the slope.
+
+00:01:10.000 --> 00:01:23.000
+Why? Excuse me. The Y intercept. There's lots of really great reasons why the slope intercept form is the first way we learn about a line.
+
+00:01:23.000 --> 00:01:28.000
+But I'm gonna claim that for us, this is not. As useful as we need it to be.
+
+00:01:28.000 --> 00:01:36.000
+This is not the best form of the line. I want us to focus on this thing called the point slope form of a line.
+
+00:01:36.000 --> 00:01:42.000
+The front of the line. Is wide-minded. Why? No.
+
+00:01:42.000 --> 00:01:54.000
+Equals MX minus x naught. Where M is still the slope. And x naught one not.
+
+00:01:54.000 --> 00:02:09.000
+Is a point. On the Okay, so I'm gonna make the claim that it's this point slope formula that's going to be so much more useful for us.
+
+00:02:09.000 --> 00:02:19.000
+That I want us to use. And the reason for that is notice that there are really just 1, 2, 3 things I need.
+
+00:02:19.000 --> 00:02:28.000
+Any. I need M. And I need X not. If I can find those 3 quantities, I am.
+
+00:02:28.000 --> 00:02:35.000
+And actually one of them is just handed to us for free. The ex we need. Is given to us right here.
+
+00:02:35.000 --> 00:02:48.000
+It is. 3. Why not is also easy to find one. I can just use this formula.
+
+00:02:48.000 --> 00:03:06.000
+3 or it's not. And that gives me 3 squared is 9 minus 3 is 6. So I can write that as the X naught Y not the point on my graph that I'm interested in is the point 3.
+
+00:03:06.000 --> 00:03:17.000
+Excellent. The last thing I need is M. And M is my slow. And this was absolutely impossible to find.
+
+00:03:17.000 --> 00:03:27.000
+Until we started talking about derivatives. And I know that the slope I'm looking for is the.
+
+00:03:27.000 --> 00:03:38.000
+Of this function at. 3 and there are 2 right because the derivative at 3 is the slope of the function at 3.
+
+00:03:38.000 --> 00:03:46.000
+It's the slope of the line. Tangent to the function at 3. And this is the limit.
+
+00:03:46.000 --> 00:04:02.000
+As Okay. Minus 3. Over x minus 3. There's a second definition for the derivative, but I'm going to use this one.
+
+00:04:02.000 --> 00:04:16.000
+This becomes, As X. After that, that's still. Where minus. As of 3, I've already found it.
+
+00:04:16.000 --> 00:04:25.000
+It's 60, x minus 3. I wish I could plug in 3 of course I get 0 divided by 0.
+
+00:04:25.000 --> 00:04:36.000
+But I bet. And the price is long enough. Yeah. Okay, x minus plus this must be a 3.
+
+00:04:36.000 --> 00:04:52.000
+And a 2 over x minus 3 and sure enough, wouldn't you know? These cancel. And I'm taking the limit as X approaches 3 of x plus 2.
+
+00:04:52.000 --> 00:05:03.000
+And that gives me 5. Perfect. So now I have all the pieces that I need. All I have to do is plug in 6.
+
+00:05:03.000 --> 00:05:16.000
+5 and 3 for why not m and x not Why minus? Okay, equals 5. X minus 3.
+
+00:05:16.000 --> 00:05:29.000
+And I think this is a perfectly reasonable answer. And suppose for whatever reason you're asked to put it into slope intercept form, not a big deal.
+
+00:05:29.000 --> 00:05:44.000
+Y minus 6 is equal to 5 x. Minus 15. So y is equal. 2 5 x minus 9.
+
+00:05:44.000 --> 00:05:53.000
+Right, now let's take these real fast and let's come over here and look at. Look at this other screen.
+
+00:05:53.000 --> 00:06:00.000
+Here we go. So here I am graphing or I have the graph of x squared minus x.
+
+00:06:00.000 --> 00:06:12.000
+And the point we're interested in is when x equals 3. And notice that I zooms right in on this point right here.
+
+00:06:12.000 --> 00:06:22.000
+And now I'm going to type in my y minus 6 equals 5. X minus 3 whole and look at what happens.
+
+00:06:22.000 --> 00:06:30.000
+Look how great this is. Notice that the red line, the red parabola and the green graph are certainly different.
+
+00:06:30.000 --> 00:06:39.000
+But when I zoom in, see how that that green line comes in just barely touches the graph and then continues on.
+
+00:06:39.000 --> 00:06:46.000
+And it's so close that if I zoom in close enough, it's impossible to tell the difference between there's the parabola.
+
+00:06:46.000 --> 00:06:50.000
+There's the graph, sorry, the line. There's the parabola. There's the line.
+
+00:06:50.000 --> 00:06:57.000
+You can't really tell the difference when you zoom in super close. And then just to show you that what we did was okay.
+
+00:06:57.000 --> 00:07:08.000
+Is that a, y equals 5 x minus 9. Look at that. There's my, point slope.
+
+00:07:08.000 --> 00:07:17.000
+There's my slope intercept and notice that the they give me the exact same line. So either line is perfectly active.
+
+00:07:17.000 --> 00:07:26.000
+Okay, we find the, for wine tangent to graphs. We're gonna do lots of these so this is an important one.
+
+00:07:26.000 --> 00:07:29.000
+Make sure you can do lots of these. So this is an important one. Make sure you can do this basic, so this is an important one.
+
+00:07:29.000 --> 00:07:36.000
+Make sure you can do this basic one on your own, from beginning to end before you start attend
+

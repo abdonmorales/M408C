@@ -1,0 +1,155 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:20.000
+This video for section 2.5 continuous functions. So in this video we will define We're gonna list some properties of functions and then describe some This this video is going to be lots of words and in the next video there will be more problems.
+
+00:00:20.000 --> 00:00:26.000
+Let's just talk about what in the world a continuous function. What does it mean for a function to be continuous?
+
+00:00:26.000 --> 00:00:34.000
+And there's just really fantastic. It has to be continuous at every point. Which I feel like as well.
+
+00:00:34.000 --> 00:00:47.000
+Are we, What does it mean to be continuous? And I have 2 answers. The first answer, which feels okay.
+
+00:00:47.000 --> 00:00:55.000
+Is that when you don't have to pick up your pen and part of me feels okay. First way to understand this.
+
+00:00:55.000 --> 00:01:01.000
+I don't think it's the best way. I don't think it's the most complete way to understand this.
+
+00:01:01.000 --> 00:01:05.000
+We're gonna have a much better answer that we're going to be able to use in the class.
+
+00:01:05.000 --> 00:01:15.000
+And it says, a function f is continuous at the point x equals a if the following is true. It says that the limit.
+
+00:01:15.000 --> 00:01:28.000
+Of the function. Equals the value of the function when we plug in that same number. Now let's dissect this a little bit.
+
+00:01:28.000 --> 00:01:39.000
+There there is a bit more going on here than perhaps we realize. The first thing that has to happen is that this number, this value has to A exist.
+
+00:01:39.000 --> 00:01:42.000
+And it has to be finite. So we are not going to, for example, we can't plug in A and get one over 0.
+
+00:01:42.000 --> 00:01:50.000
+We can't get the square root of negative 2. It has to be some finite thing. And something that exists.
+
+00:01:50.000 --> 00:02:05.000
+We can't get into. Another thing that has to be true is that the limit has to exist and we've seen in this course that the limit only exists when the right hand limit and the left hand limit both exist.
+
+00:02:05.000 --> 00:02:07.000
+And equal each other and in this case are finite. So in order for this to be true, there's actually a lot going on.
+
+00:02:07.000 --> 00:02:22.000
+We have to check existence. The fact that it's finite, a left hand limit, right hand limit, the equality, the the finiteness, and then we can finally check do those 2 members.
+
+00:02:22.000 --> 00:02:31.000
+So it's not, trivial. Now that's video and let or see the page and just.
+
+00:02:31.000 --> 00:02:42.000
+Not continuous. So here, this is an example of a function that is not continuous at A. And the reason it's not continuous today is that and part of being continuous.
+
+00:02:42.000 --> 00:02:57.000
+That the function must exist at A. Here we see that F of A does exist. The limit. Of F of X as X approaches A does not exist, right?
+
+00:02:57.000 --> 00:03:05.000
+Because we see the left hand limit does not equal the right hand limit. Here. The function is not continuous.
+
+00:03:05.000 --> 00:03:21.000
+The limit exists. But the limit of is not the same as. So 3 perfectly fine functions that just happen to not be continuous in each case for different reasons.
+
+00:03:21.000 --> 00:03:28.000
+Function does not exist, the function does not exist. A limit does not exist. The function and the limit exist, but they're not equal to each other.
+
+00:03:28.000 --> 00:03:34.000
+But then if we put all this together, what does it mean for the limit or the function to be as well?
+
+00:03:34.000 --> 00:03:54.000
+It's like the function. Exist at the point. And the limit on the left. Equals the limit from the right and you're like, oh yeah, Okay, that the limits gets me to the point the point exists and the limit allows you to keep going without ever picking up my pen.
+
+00:03:54.000 --> 00:04:06.000
+So here, the limit. Exist. So that's just a good, There's in our head and take the pictures and compare them to the conditions we have on the previous day.
+
+00:04:06.000 --> 00:04:09.000
+Here's a nice little problem for us to consider. So we have some function. It's a piecewise function.
+
+00:04:09.000 --> 00:04:21.000
+So it's x squared plus x minus 12. When x is not 3 and it equals to b when the function is 3.
+
+00:04:21.000 --> 00:04:34.000
+Let's find the value of B that makes this continuous. In particular, continuous The first thing I'm going to do is I'm going to step, and this is not going to be a great graph.
+
+00:04:34.000 --> 00:04:43.000
+Of this function. I know that x squared plus x minus 12. So this is a parabola that opens up.
+
+00:04:43.000 --> 00:04:52.000
+May also have x minus 3, I guess, plus or looks like my, x intercept.
+
+00:04:52.000 --> 00:05:03.000
+Equal 0. So that means And 1, 2, 3, 4. So this is where we're going to intersect the why I see maybe x-axis.
+
+00:05:03.000 --> 00:05:21.000
+Oh, but then I realize, look at this. So x equals 3 and 4. This is great except for the fact that this function is not x squared plus x minus 12 at x equals So when I They get something like this.
+
+00:05:21.000 --> 00:05:29.000
+I'm gonna have an open circle. And I'm gonna keep going, right? This is the graph of my first condition.
+
+00:05:29.000 --> 00:05:44.000
+It is this parabola with this 1 point omitted. It is not continuous at 3 because the We just have to now figure out the value of B that will plug in this hole.
+
+00:05:44.000 --> 00:05:54.000
+And I think it's pretty obvious. There's lots of possible values for B. There's only one, this one right here that makes it continuous.
+
+00:05:54.000 --> 00:06:06.000
+So if B is equal to 3. That makes the limit. As x approaches 3. At the back.
+
+00:06:06.000 --> 00:06:19.000
+Which is the limit as x squared plus x minus 12. Equal. B, which is 3, which is.
+
+00:06:19.000 --> 00:06:24.000
+Sorry, 0, which is up of 3.
+
+00:06:24.000 --> 00:06:38.000
+I hope that I hope that added or it made sense. Fit in with what we just did. Before I end this, I do want to talk about some properties of continuous functions, continuous functions.
+
+00:06:38.000 --> 00:06:48.000
+Are the Part of it is just because. Part of it is just because continuous functions are so well behaved.
+
+00:06:48.000 --> 00:07:00.000
+So we have that if F and G are continuous at a point. I can add the 2 functions, track the 2 functions, multiply the 2 functions, multiply the function by a constant.
+
+00:07:00.000 --> 00:07:09.000
+I can even divide. And as long as these are both continuous. So are these new functions. With one exception.
+
+00:07:09.000 --> 00:07:18.000
+I hope you caught this. We always have to be careful when we divide. So long as G of A.
+
+00:07:18.000 --> 00:07:23.000
+Is not 0. So it's not the case, right? It's not the case that I can divide by 0.
+
+00:07:23.000 --> 00:07:34.000
+So that's when we might get some some headaches, but otherwise we're allowed to whatever we want to continue with functions we will create new continuous functions.
+
+00:07:34.000 --> 00:07:43.000
+These functions are these properties with a few other facts. Mean that a whole lot of things are suddenly continuous function.
+
+00:07:43.000 --> 00:07:55.000
+And this list is going to look super familiar. Polynomials are continuous functions. Rational functions are continuous functions.
+
+00:07:55.000 --> 00:08:06.000
+Good. So long as you event is not. So these functions precisely where the denominator is not 0, these are continuous.
+
+00:08:06.000 --> 00:08:20.000
+Root function so the in root of x these are continuous so long as the functions defined My trig functions are continuous, except, you know, like for example, tangent has a lot of places where you divide by 0.
+
+00:08:20.000 --> 00:08:31.000
+So, so those are not continuous. Those points but they're also not defined at those points. So, Trink functions are continuous wherever they're defined.
+
+00:08:31.000 --> 00:08:41.000
+Exponential function, inverse trig functions, logarithmic functions, See, turns out have this nice continuous property.
+
+00:08:41.000 --> 00:08:55.000
+The next video. Examples of continuous things and some of the interesting things that are a consequence of being continuous.
+

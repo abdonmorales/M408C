@@ -1,0 +1,161 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:09.000
+2.4, the precise definition of a limit. So in this video, we are going to quickly state the precise definition of a limit and then quickly try to understand what this means.
+
+00:00:09.000 --> 00:00:21.000
+This is by no means a super in depth video, but we certainly need to at least see the type of stuff that goes on behind the scenes.
+
+00:00:21.000 --> 00:00:31.000
+We're going to start with the function that is defined on some open interval containing A except possibly for A.
+
+00:00:31.000 --> 00:00:41.000
+Which is a very complicated statement. All this means is there is some sort of function. There is some sort of A.
+
+00:00:41.000 --> 00:00:52.000
+And in the function exist and is defined around a. Although it is possible for the function at A to not exist.
+
+00:00:52.000 --> 00:00:59.000
+So it just prevents. Some weird things from happening. The function needs to be reasonably well-behaved.
+
+00:00:59.000 --> 00:01:10.000
+Around a and it's also K if there's a hole at A. Okay, so then the limit of f of x as x approaches a is some number l.
+
+00:01:10.000 --> 00:01:33.000
+Or we use this symbol. And what we've been saying so far is we've been a little, little hand wavy, you know, we've been saying as you and you slide into the X value, you kind of slide towards this Y value as you get infinitely close to X equals A, what F of X value do we get infinitely close to and that's that's been good enough for us
+
+00:01:33.000 --> 00:01:44.000
+for now but at some point we have to become super, super precise. And here's the precise statement, the one that we agreed that we will all agree upon is the best definition.
+
+00:01:44.000 --> 00:02:03.000
+Yes, for every number epsilon greater than 0, there is another number delta greater than 0 such that if the absolute value of x minus a is between 0 and delta, in the absolute value of f of x minus l is less than epsilon.
+
+00:02:03.000 --> 00:02:09.000
+Whoa, that is that is there's a lot going on here y'all. This is a dense dense statement.
+
+00:02:09.000 --> 00:02:20.000
+We are not going to spend any time really unpacking this. What I would like to do is give you some idea of how this works.
+
+00:02:20.000 --> 00:02:30.000
+What is happening here and try to explain it on these 2 pictures? Now what you notice is that based on the things we talked about in this class and what we talked about is correct.
+
+00:02:30.000 --> 00:02:31.000
+The limit on the left as x approaches a exists and the limit as x approaches a on the right does not exist.
+
+00:02:31.000 --> 00:02:43.000
+And what we have said so far as well when you approach from the left and you approach from the right.
+
+00:02:43.000 --> 00:02:52.000
+They both approach L, so the limit exists. Here when you approach from the left and you approach from the right you approach 2 different values and so the limit does not exist.
+
+00:02:52.000 --> 00:03:02.000
+Use or let's try to say the same thing, but we're gonna say using this.
+
+00:03:02.000 --> 00:03:15.000
+This works. It's almost like it's almost like a game. If somebody hands you an So long is gonna be Somebody give you an epsilon.
+
+00:03:15.000 --> 00:03:27.000
+Epsilon is . On some kind of values. And those.
+
+00:03:27.000 --> 00:03:33.000
+X value. So see how I started with this epsilon. We go epsilon above L.
+
+00:03:33.000 --> 00:03:40.000
+We go epsilon below L. We kind of backtrack to our x-axis.
+
+00:03:40.000 --> 00:03:55.000
+And then what we can do is say, look at this, be this small value here. Anytime I pick an X value in this interval.
+
+00:03:55.000 --> 00:04:05.000
+Of Delta's it goes to a y value smaller than this inner full of delta, I admit that's a lot.
+
+00:04:05.000 --> 00:04:15.000
+We throw in these Greek letters, there's a lot going on, and especially if we don't work any example problems, I think.
+
+00:04:15.000 --> 00:04:21.000
+But for this video, I don't want to work any example problems. I wanna start with just a picture.
+
+00:04:21.000 --> 00:04:25.000
+And so mind you, this is now when things are gonna get real. Maybe I'll zoom in a little bit.
+
+00:04:25.000 --> 00:04:36.000
+What if you say, well, you know what, that epsilon felt too big. One if I had, Well, my smaller.
+
+00:04:36.000 --> 00:04:47.000
+In this way, it corresponds to even. Smaller. X values like this.
+
+00:04:47.000 --> 00:04:54.000
+In the what I'm gonna do is I'm gonna pick a new That's inside of that.
+
+00:04:54.000 --> 00:05:02.000
+Gee, that's small. Maybe that's the tiny little delta I pick. And now my little delta region when I map it.
+
+00:05:02.000 --> 00:05:15.000
+Maps inside the new And it doesn't matter how tiny this epsilon gets. I can find an incredibly tiny delta that always somehow fits in.
+
+00:05:15.000 --> 00:05:22.000
+And believe it or not, even though I don't feel like necessarily, that's exactly what it means for the limit.
+
+00:05:22.000 --> 00:05:27.000
+Let's come over here because I think this may actually do a better job of explaining why this is.
+
+00:05:27.000 --> 00:05:35.000
+So if I looked at this and I had to guess, right, if there were a, will the limits either going to be this value up here.
+
+00:05:35.000 --> 00:05:39.000
+Or it's gonna be this value down here. Let's just assume it's this value up here when the function exists.
+
+00:05:39.000 --> 00:05:50.000
+So suppose this is. Let's play the same game we played before. Well, I'm gonna take this.
+
+00:05:50.000 --> 00:05:53.000
+Little epsilon value.
+
+00:05:53.000 --> 00:06:02.000
+But watch what happens, okay, there's a small epsilon value. What exactly is the delta I'm gonna put?
+
+00:06:02.000 --> 00:06:10.000
+Well, what I said is you need to kind of come over here. And try to find
+
+00:06:10.000 --> 00:06:18.000
+What the corresponding region is and ISIS. You know, eventually this function might go up and might not.
+
+00:06:18.000 --> 00:06:33.000
+But my real issue is right here. Because I'm not sure where if ever there's like a corresponding Here's where we're gonna see the If I take a delta, a very small number.
+
+00:06:33.000 --> 00:06:47.000
+Maybe like this. Here's my belt. That's my other dog. And Okay.
+
+00:06:47.000 --> 00:06:57.000
+That sounds Nice fine. And the core funding value lies inside that.
+
+00:06:57.000 --> 00:07:09.000
+And then, on this side. That's all right. The problem is what happens. An X value on this side of that.
+
+00:07:09.000 --> 00:07:23.000
+Well, I come up and it hits. This. And notice. Value is way outside my epsilon region.
+
+00:07:23.000 --> 00:07:32.000
+And it doesn't matter how tiny. Delta gets, even if that delta is just barely, barely to the left.
+
+00:07:32.000 --> 00:07:38.000
+Barely to the left of, I still have this issue of that my y value is going to be outside the epsilon region.
+
+00:07:38.000 --> 00:07:53.000
+Well, why is it outside of this epsilon region precisely because it's not continuous precisely because there's this jump and that's what this definition is helping us pick up.
+
+00:07:53.000 --> 00:08:01.000
+Is that this condition is not satisfied precisely when our bill sees that there's a, our eyeballs.
+
+00:08:01.000 --> 00:08:11.000
+That there's a jump, but we can't just say that we need to somehow express that precisely mathematically and this, believe it or not, is the way to do it.
+
+00:08:11.000 --> 00:08:20.000
+So again, there are lots of tiny little issues we need to talk about. If we were going to talk about this in depth, lots of places to have a miss understanding.
+
+00:08:20.000 --> 00:08:25.000
+This is a, this is no joke. But, this is the type of thing that oftentimes when you kind of veer into the world of your mathematics, you kind of get, you kind of get.
+
+00:08:25.000 --> 00:08:36.000
+Put in this way
+
